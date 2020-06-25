@@ -1,0 +1,150 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+article {
+  width: 550px;
+  font-family: Helvetica-Black, Helvetica;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+header {
+  line-height: 0.7rem;
+  line-height: 0.2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-family: Franklin Gothic Heavy;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+h2 {
+  border-top: 25px solid black;
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+  margin: 0;
+}
+
+header dl {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  padding: 0.75rem 0;
+  font-size: 1.2rem
+}
+
+header dl dd {
+  display: inline;
+  margin: 0px 5px;
+}
+
+header dl dt {
+  display: inline;
+  font-weight: bold;
+}
+
+header dl:last-child dt {
+  font-weight: normal;
+}
+
+header dl:first-child {
+  text-align: left;
+}
+
+header dl:last-child {
+  text-align: right;
+}
+
+table:first-of-type {
+  border-top: 10px solid black;
+  width: 100%;
+  border-spacing: 0;
+}
+
+thead tr th {
+  font-size: 1.2rem;
+}
+
+tbody th {
+  padding: 2px 0;
+  font-weight: normal;
+  text-align: left;
+  border-top: 1px solid black;
+}
+
+tbody dt {
+  display: inline;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+tbody dl{
+  margin: 0;
+  padding: 0;
+}
+
+tbody dd {
+  margin: 0;
+  display: inline;
+}
+
+tbody th {
+  text-align: left;
+}
+
+tbody tr td {
+  font-weight: bold;
+  text-align: right;
+  border-top: 1px solid black;
+}
+
+tr:nth-child(9) th, tr:nth-child(9) td {
+  border-bottom: 12px solid black;
+}
+
+tr:nth-child(n+10) td{
+  font-weight: normal;
+}
+
+tr:last-child th {
+  border-bottom: 1px solid black;
+}
+
+tr:last-child td {
+  border-bottom: 1px solid black;
+}
+
+tr.indent th dl dt {
+  font-weight: normal;
+  margin-left: 1rem;
+  border-top: none;
+}
+
+table:last-child thead th {
+  font-weight: normal;
+  text-align: left;
+  font-size: 1rem;
+  width: 37%;
+}
+
+table:last-child thead th:nth-child(n + 1) {
+  width: 21%;
+}
+
+table:last-child tbody td {
+  font-weight: normal;
+  border: none;
+  text-align: left;
+}
+
+table:last-child td.indent {
+  width: auto;
+  text-indent: 1.2rem;
+}
