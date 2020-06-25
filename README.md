@@ -1,2 +1,1 @@
-# Nutrition_Label_Project
-
+# USDA Nutrition Label Project
